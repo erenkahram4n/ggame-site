@@ -156,3 +156,26 @@ footer a:hover{color:var(--orange-2)}
 .brandcard .top{text-decoration:none}
 .chip-main{background:var(--navy);color:var(--cream)}
 .chip-main:hover{background:var(--navy-2)}
+
+/* ===== ANA SITE TEMASI (body.home) ===== */
+body.home{--navy:#14112a;--navy-2:#211c42;--cream:#f6f4fc;--cream-2:#ebe6f8;--orange:#7c5cff;--orange-2:#9d85ff;--ink:#17142b;--muted:#5f5b74;background:var(--cream)}
+.home .nav{background:rgba(20,17,42,.92)}
+.home .hero{background:radial-gradient(1200px 600px at 85% 110%,rgba(34,211,238,.18),transparent 60%),linear-gradient(160deg,#1b1640,#14112a 60%)}
+.home .hero::after{background:radial-gradient(circle,rgba(124,92,255,.35),transparent 65%)}
+.home .hero h1 em{background:linear-gradient(90deg,#9d85ff,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+.home .eyebrow{background:rgba(124,92,255,.16);color:#b6a6ff}
+.home .sec-head .eyebrow{background:rgba(124,92,255,.12);color:#5b3fe0}
+.home .btn-primary{background:linear-gradient(90deg,#7c5cff,#22b8d6);color:#fff}
+.home .btn-primary:hover{filter:brightness(1.1)}
+.home .band{background:linear-gradient(160deg,#1b1640,#14112a)}
+.home .band .sec-head .eyebrow{background:rgba(34,211,238,.14);color:#67e8f9}
+.home .store .tag{background:#7c5cff}
+.home .quote{background:#fff;border:1px solid #e6e1f5}
+.home .quote cite a{color:#5b3fe0!important}
+.home .about li span{color:#7c5cff}
+.home .chip{background:#efecfa;color:#14112a}
+.home .chip:hover{background:#e3ddf7}
+.home .chip-main{background:#14112a;color:#fff}
+.home .legal a{color:#5b3fe0}
+.home footer{background:#14112a}
+.home .games .mock{background:linear-gradient(160deg,#2a2160,#14112a);border-color:#0b0918}
