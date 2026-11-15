@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>İnteraktif Senaryo — You make the decisions.</title>
+<meta name="description" content="İnteraktif Senaryo (Turkish for 'Interactive Scenario'): short choice-based video series that pause real events and fictional career stories at their critical moments and let the viewer decide. A GGame production.">
+<meta property="og:title" content="İnteraktif Senaryo"><meta property="og:image" content="https://ggame.com.tr/img/is_banner.jpg">
+<meta name="theme-color" content="#0a0a0b">
+<link rel="icon" href="/img/is_amblem.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=7">
+<style>
+body.is{background:#0a0a0b;color:#e9e9ea;font-family:"Inter",system-ui,sans-serif}
+.is .nav{background:rgba(10,10,11,.9);border-bottom:1px solid #1d1d20}
+.is h1,.is h2,.is h3{font-family:"Inter";letter-spacing:-.02em}
+.is-hero{position:relative;min-height:min(86vh,720px);display:grid;place-items:center;text-align:center;overflow:hidden;padding:80px 0}
+.is-hero::before{content:"";position:absolute;inset:-20px;background:url(/img/is_banner.jpg) center/cover;opacity:.14;filter:grayscale(1) blur(6px)}
+.is-hero::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(255,255,255,.07),transparent 55%),linear-gradient(180deg,transparent 60%,#0a0a0b)}
+.is-hero .in{position:relative;z-index:1}
+.is-hero img{width:150px;margin:0 auto 28px;filter:drop-shadow(0 10px 40px rgba(255,255,255,.15))}
+.is-hero h1{font-size:clamp(2.4rem,6vw,4.4rem);font-weight:800;background:linear-gradient(180deg,#fff,#9a9aa0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.is-hero p{color:#a5a5ab;font-size:1.15rem;margin:18px auto 34px;max-width:46ch}
+.is-btn{display:inline-block;border:1px solid #3a3a40;border-radius:99px;padding:14px 28px;color:#fff;text-decoration:none;font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:.85rem;background:rgba(255,255,255,.04);transition:background .2s}
+.is-btn:hover{background:rgba(255,255,255,.12)}
+.red{color:#e5484d}
+.is section{padding:90px 0}
+.is .lbl{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#e5484d;font-weight:600}
+.is h2{font-size:clamp(1.9rem,4vw,2.8rem);margin:12px 0 16px;color:#f2f2f3}
+.is .muted{color:#9a9aa0;max-width:60ch}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.step{border:1px solid #232327;border-radius:20px;padding:28px;background:linear-gradient(180deg,#121214,#0d0d0f)}
+.step b{font-size:2.4rem;color:#3a3a40;display:block;line-height:1;margin-bottom:14px}
+.step h3{font-size:1.2rem;margin-bottom:6px}
+.step p{color:#9a9aa0;font-size:.97rem}
+@media(max-width:800px){.steps{grid-template-columns:1fr}}
+.ep{display:grid;grid-template-columns:auto 1fr;gap:44px;align-items:center}
+.phones{display:flex;gap:16px}
+.phones img{width:200px;border-radius:26px;border:6px solid #1a1a1d;box-shadow:0 30px 60px rgba(0,0,0,.6)}
+.phones img:last-child{margin-top:40px}
+.choice{display:flex;flex-direction:column;gap:10px;margin:24px 0;max-width:340px}
+.choice span{border:1px solid #3a3a40;border-radius:99px;padding:12px 20px;text-align:center;font-weight:600;letter-spacing:.1em;font-size:.85rem}
+@media(max-width:860px){.ep{grid-template-columns:1fr}.phones img{width:44vw}}
+.is footer{background:#070708;border-top:1px solid #1d1d20}
+.rules li{list-style:none;border-left:2px solid #e5484d;padding:6px 0 6px 16px;margin:12px 0;color:#c9c9cd}
+</style>
+<link rel="alternate" hreflang="tr" href="https://ggame.com.tr/interaktifsenaryo"><link rel="alternate" hreflang="en" href="https://ggame.com.tr/en/interaktifsenaryo">
+</head>
+<body class="is">
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="#" style="font-family:Inter,sans-serif;font-weight:600;letter-spacing:-.01em"><img src="/img/is_amblem.png" alt="" style="width:34px">İnteraktif Senaryo</a>
+  <ul><li><a href="#nasil">How it works</a></li><li><a href="#bolumler">Stories</a></li><li><a href="#takip">Follow</a></li><li><a href="/en/">← Back to home</a></li></ul>
+</div></nav>
+
+<header class="is-hero"><div class="in wrap">
+  <img src="/img/is_amblem.png" alt="İnteraktif Senaryo emblem">
+  <h1>You are inside the story.<br>You make the call.</h1>
+  <p>You are right in the middle of the action. Everything changes in an instant and the story stops at the most critical moment. <span class="red">What would you do?</span> Make your choice and the story continues with your decision. (Videos are in Turkish.)</p>
+  <a class="is-btn" href="https://www.instagram.com/interaktifsenaryo" target="_blank" rel="noopener">Instagram</a> <a class="is-btn" href="https://www.youtube.com/@interaktifsenaryo" target="_blank" rel="noopener">YouTube</a>
+</div></header>
+
+<section id="nasil"><div class="wrap">
+  <span class="lbl">How it works</span>
+  <h2>Every episode ends at a crossroads.</h2>
+  <p class="muted">Short, cinematic episodes. The event unfolds, the tension rises and the screen freezes right at the moment of decision. The comments decide the next episode.</p>
+  <div class="steps">
+    <div class="step"><b>01</b><h3>Watch</h3><p>You step into the story, right in the middle of the action, in the decision-maker's shoes.</p></div>
+    <div class="step"><b>02</b><h3>Decide</h3><p>The episode ends with two options. You write your decision in the comments.</p></div>
+    <div class="step"><b>03</b><h3>See the outcome</h3><p>The next episode follows the most chosen path. For real events, you also learn what actually happened in the end.</p></div>
+  </div>
+</div></section>
+
+<section id="bolumler" style="padding-top:20px"><div class="wrap">
+  <span class="lbl">What kind of stories?</span>
+  <h2>Multiple-choice stories.</h2>
+  <p class="muted">Each series has a few short episodes and each episode ends with a choice. Sometimes you are in the middle of a real event; sometimes you are a character building a life or a career from scratch.</p>
+  <div class="steps">
+    <div class="step"><b>✈</b><h3>Real events</h3><p>Step into moments that made history, and find out what really happened in the end.</p></div>
+    <div class="step"><b>⚽</b><h3>Career stories</h3><p>Shape a character's path step by step: which offer, which risk, which sacrifice.</p></div>
+    <div class="step"><b>⚖</b><h3>Dilemmas</h3><p>Both options make sense and both have a price. Which one would you choose?</p></div>
+  </div>
+  <div class="choice" style="margin-top:36px"><span>OPTION A</span><span>OPTION B</span></div>
+  <p class="muted">Write your decision in the comments. The most chosen path decides the next episode.</p>
+</div></section>
+
+<section style="padding-top:20px"><div class="wrap">
+  <span class="lbl">Our principles</span>
+  <h2>With respect for the truth.</h2>
+  <ul class="rules">
+    <li>Events are based on public official reports and reliable sources; we never invent what is unknown.</li>
+    <li>We respect those who lost their lives: we tell these stories to understand and learn, not for sensation.</li>
+    <li>The choice moments are a fictional game; at the end of real-event series we clearly state what really happened.</li>
+    <li>For fictional stories, we say so clearly on screen.</li>
+  </ul>
+</div></section>
+
+<section id="takip" style="padding-top:10px;text-align:center"><div class="wrap">
+  <h2>The next decision is yours.</h2>
+  <p class="muted" style="margin:0 auto 26px">New episodes on Instagram and YouTube.</p>
+  <a class="is-btn" href="https://www.instagram.com/interaktifsenaryo" target="_blank" rel="noopener">Instagram</a> <a class="is-btn" href="https://www.youtube.com/@interaktifsenaryo" target="_blank" rel="noopener">YouTube</a>
+</div></section>
+
+<footer><div class="wrap"><div>© 2026 GGame · İnteraktif Senaryo</div><div><a href="/en/">GGame</a><a href="/en/gizlilik">Privacy</a><a href="/en/kosullar">Terms</a></div></div></footer>
+<div class="langsw" role="navigation" aria-label="Dil / Language"><a href="/interaktifsenaryo" hreflang="tr" lang="tr">TR</a><a href="/en/interaktifsenaryo" hreflang="en" lang="en" class="on" aria-current="true">EN</a></div>
+</body>
+</html>

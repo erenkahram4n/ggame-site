@@ -179,3 +179,10 @@ body.home{--navy:#14112a;--navy-2:#211c42;--cream:#f6f4fc;--cream-2:#ebe6f8;--or
 .home .legal a{color:#5b3fe0}
 .home footer{background:#14112a}
 .home .games .mock{background:linear-gradient(160deg,#2a2160,#14112a);border-color:#0b0918}
+
+/* dil secici (her sayfada sag alt kose) */
+.langsw{position:fixed;right:16px;bottom:16px;z-index:999;display:flex;gap:2px;padding:4px;border-radius:99px;background:rgba(20,17,42,.88);border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 24px rgba(0,0,0,.28);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-family:"Nunito",system-ui,sans-serif}
+.langsw a{display:block;min-width:44px;padding:8px 12px;border-radius:99px;text-align:center;color:#fff;text-decoration:none;font-weight:800;font-size:.85rem;letter-spacing:.06em;opacity:.7;transition:background .2s,opacity .2s}
+.langsw a:hover{opacity:1;background:rgba(255,255,255,.12)}
+.langsw a.on{opacity:1;background:#c9581a}
+@media print{.langsw{display:none}}

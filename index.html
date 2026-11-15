@@ -12,7 +12,8 @@
 <link rel="icon" href="img/ggame_amblem_renkli.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
+<link rel="alternate" hreflang="tr" href="https://ggame.com.tr/"><link rel="alternate" hreflang="en" href="https://ggame.com.tr/en/">
 </head>
 <body class="home">
 
@@ -100,5 +101,6 @@
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 </script>
+<div class="langsw" role="navigation" aria-label="Dil / Language"><a href="/" hreflang="tr" lang="tr" class="on" aria-current="true">TR</a><a href="/en/" hreflang="en" lang="en">EN</a></div>
 </body>
 </html>

@@ -7,7 +7,7 @@
 <meta property="og:title" content="GGame"><meta name="theme-color" content="#152535">
 <link rel="icon" href="img/ggame_amblem_renkli.svg">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 <style>
 body.gg{background:#f5f7fb}
 .gg .nav{background:rgba(21,37,53,.95)}
@@ -31,6 +31,7 @@ body.gg{background:#f5f7fb}
 .gg .band{background:#152535}
 .gg .band .sec-head .eyebrow{background:rgba(65,100,245,.18);color:#8ea6ff}
 </style>
+<link rel="alternate" hreflang="tr" href="https://ggame.com.tr/ggame"><link rel="alternate" hreflang="en" href="https://ggame.com.tr/en/ggame">
 </head>
 <body class="gg">
 <nav class="nav"><div class="wrap">
@@ -86,5 +87,6 @@ body.gg{background:#f5f7fb}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 </script>
+<div class="langsw" role="navigation" aria-label="Dil / Language"><a href="/ggame" hreflang="tr" lang="tr" class="on" aria-current="true">TR</a><a href="/en/ggame" hreflang="en" lang="en">EN</a></div>
 </body>
 </html>
